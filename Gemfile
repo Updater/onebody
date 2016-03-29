@@ -81,6 +81,12 @@ group :development, :test do
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'timecop'
+
+  # Guard
+  # ------------------
+  gem 'guard-bundler'
+  gem 'guard-rack'
+  gem 'guard-spring'
 end
 
 group :production do
